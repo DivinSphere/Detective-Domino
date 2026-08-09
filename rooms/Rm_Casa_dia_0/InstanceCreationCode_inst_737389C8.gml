@@ -1,5 +1,19 @@
+if (global.historia == 1) {
 
-if (global.historia == 1.3) {
+dialogos = [
+    [
+        "Observar", 
+        [
+            [1, 0, "Alguém estabanado deve ter feito isso"],
+        ]
+    ]
+];
+
+
+
+
+}
+else if (global.historia == 1.3) {
 
 dialogos = [
     [

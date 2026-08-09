@@ -20,13 +20,16 @@ if (estado == "aberto") {
         if (IN_ESQ_PRESS || IN_DIR_PRESS || IN_CIMA_PRESS || IN_BAIXO_PRESS) {
             opcao_confirmacao = !opcao_confirmacao;
             escala_valor = 1.5; 
+			tocar(snd_menu_mexe)
         }
         
         if (IN_ACAO_PRESS) {
             if (opcao_confirmacao == 1) {
+				tocar(snd_menu_mexe)
                 room = Rm_variaveis;
             } else {
                 confirmando_saida = false;
+				tocar(snd_menu_mexe)
             }
         }
         
@@ -37,6 +40,7 @@ if (estado == "aberto") {
     else {
         if (IN_VOLTAR_PRESS) {
 			tocar(snd_fecha_menu)
+			
             estado = "fechando";
         }
 
@@ -95,6 +99,7 @@ if (estado == "aberto") {
                         if (room != Rm_menu) {
                             confirmando_saida = true;
                             opcao_confirmacao = 0; 
+							tocar(snd_menu_mexe)
                         } else {
                             estado = "fechando";
 							tocar(snd_fecha_menu)

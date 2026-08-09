@@ -17,12 +17,14 @@ if (estado == "aberto") {
     if (IN_BAIXO_PRESS || IN_DIR_PRESS) {
         if (pagina_atual < array_length(paginas_array) - 1) {
             pagina_atual++;
+			tocar(snd_menu_mexe)
         }
     }
     
     if (IN_CIMA_PRESS || IN_ESQ_PRESS) {
         if (pagina_atual > 0) {
             pagina_atual--;
+			tocar(snd_menu_mexe)
         }
     }
     

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_fecha_menu",
+  "%Name":"snd_porta_aparecendo",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":0.15106577,
   "exportDir":"",
-  "name":"snd_fecha_menu",
+  "name":"snd_porta_aparecendo",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_fecha_menu.wav",
+  "soundFile":"snd_porta_aparecendo.ogg",
   "volume":1.0,
 }

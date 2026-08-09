@@ -6,12 +6,12 @@ falar_boca = false;
 personagens_config = array_create(10, [snd_voz_1, 1.0]); 
 personagens_config[0] = [snd_voz_1, 1.0];  //Narrador
 personagens_config[1] = [snd_voz_1, 1.2];  //Dominó
-personagens_config[2] = [snd_voz_1, 2.0];  //Breno
+personagens_config[2] = [snd_voz_1, 1.2];  //Breno
 personagens_config[3] = [snd_voz_1, 1.0];  //Ellie
-personagens_config[4] = [snd_voz_1, 1.5];  //Theo
-personagens_config[5] = [snd_voz_1, 0.7];  //Tiffany
-personagens_config[6] = [snd_voz_1, 1.8];  //Sam
-personagens_config[7] = [snd_voz_1, 0.6];  //Paradoxo
+personagens_config[4] = [snd_voz_1, 1.3];  //Theo
+personagens_config[5] = [snd_voz_1, 0.9];  //Tiffany
+personagens_config[6] = [snd_voz_1, 1.4];  //Sam
+personagens_config[7] = [snd_voz_1, 1];  //Paradoxo
 
 
 

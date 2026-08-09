@@ -19,7 +19,7 @@ if global.historia>2.1
                 [0, 0, "Agora, por outro lado, imagine que o seu despertador tocou normalmente..."],
                 [0, 0, "Resultado... você nunca se casou... não teve netos... sua descendência terminou aí."],
                 [0, 0, "Curioso, não? Apenas uma simples mudança, como um despertador, pode definir todo o seu futuro."],
-                [0, 0, "Vamos agora assistir isso na prática! Vai começar o filme 'O Efeito Borboleta'."],
+                [0, 0, "Vamos agora assistir isso na prática! Vai começar o filme 'A Cadeia da Borboleta'."],
                 [4, 0, "Fico imaginando qual é a pequena escolha que pode mudar todo o rumo da minha vida..."],
                 [5, 0, "Theo..."],
                 

@@ -1,8 +1,6 @@
 if (global.historia == 3.0) { 
     
-    
-    
-    
+    // Mantemos a função de encerrar igual, pois ela ocorre apenas no fim do diálogo
     var _transicao_encerrar = function() {
         global.historia = 101; 
         var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
@@ -12,19 +10,12 @@ if (global.historia == 3.0) {
         _porta.lado = 1;
     };
     
+    // A função de continuar agora apenas atualiza o progresso, 
+    // pois a porta será criada no momento exato do movimento.
     var _transicao_continuar = function() {
         global.historia = 3.1;
-        var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
-        _porta.destino_room = Rm_Casa_dia_0; 
-        _porta.destino_id = -5; 
-        _porta.acao_texto = "";
-        _porta.deslocar = -70;
-        _porta.lado = 1;
     };
 
-    
-    
-    
     dialogos = [
         [
             "Conversar no Limbo", 
@@ -50,10 +41,8 @@ if (global.historia == 3.0) {
                 [7, 0, "Na verdade... tudo isso depende de você."],
                 [7, 0, "Acho que já acabou a brincadeira, não é mesmo?",
                     
-                    
                     ["Encerrar por agora", [
                         [7, 0, "Você tem certeza do que quer?", 
-                            
                             
                             ["Sim, eu quero encerrar.", [
                                 [7, 0, "Maravilha então! Meu caro detetive, você acaba de ser promovido!"],
@@ -70,7 +59,6 @@ if (global.historia == 3.0) {
                                 [7, 0, "Aproveite o seu final feliz ilusório. O caso está encerrado.", [], [], 0, _transicao_encerrar] 
                             ]],
                             
-                            
                             ["Não, eu mudei de ideia.", [
                                 [1, 0, "Mas é claro que eu não posso deixar as coisas assim!"],
                                 [7, 0, "Eu estava apenas brincando meu caro! Afinal de contas... ninguém acreditaria em um assassinato simples assim não é mesmo?"],
@@ -80,6 +68,16 @@ if (global.historia == 3.0) {
                                 [7, 0, "Hahaha, que engraçado! Sendo julgado por quem me procurou..."],
                                 [7, 0, "Ora, nosso tempo novamente se encerrou por aqui, esse caso está sendo extenso, vamos, vá logo descobrir mais do nosso maior caso!", [], [], 0],
                                 [7, 0, "Vamos ver qual vai ser o resultado dessa vez...", [], [], 0, function() {
+                                    
+                                    // 1. CRIA A PORTA PRIMEIRO
+                                    var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
+                                    _porta.destino_room = Rm_Casa_dia_0; 
+                                    _porta.destino_id = -5; 
+                                    _porta.acao_texto = "";
+                                    _porta.deslocar = -70;
+                                    _porta.lado = 1;
+
+                                    // 2. ATRIBUI O MOVIMENTO LOGO DEPOIS
                                     var _jogador = noone;
                                     with (obj_detetive) { if (jogador) _jogador = id; }
                                     if (_jogador != noone) { atribuir_comando(_jogador, "mover", -1, 70); atribuir_comando(_jogador, "esperar", 20); }
@@ -91,10 +89,8 @@ if (global.historia == 3.0) {
                         ]
                     ]],
                     
-                    
                     ["Continuar o caso", [
                         [7, 0, "Você tem certeza do que quer?", 
-                            
                             
                             ["Sim, vou continuar.", [
                                 [1, 0, "Mas é claro que eu não posso deixar as coisas assim!"],
@@ -104,6 +100,16 @@ if (global.historia == 3.0) {
                                 [1, 0, "Eu acho que você precisa se tratar... tem alguma coisa de errado com você."],
                                 [7, 0, "Hahaha, que engraçado! Sendo julgado por quem me procurou..."],
                                 [7, 0, "Ora, nosso tempo novamente se encerrou por aqui, esse caso está sendo extenso, vamos, vá logo descobrir mais do nosso maior caso!", [], [], 0, function() {
+                                    
+                                    // 1. CRIA A PORTA PRIMEIRO
+                                    var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
+                                    _porta.destino_room = Rm_Casa_dia_0; 
+                                    _porta.destino_id = -5; 
+                                    _porta.acao_texto = "";
+                                    _porta.deslocar = -70;
+                                    _porta.lado = 1;
+
+                                    // 2. ATRIBUI O MOVIMENTO LOGO DEPOIS
                                     var _jogador = noone;
                                     with (obj_detetive) { if (jogador) _jogador = id; }
                                     if (_jogador != noone) { atribuir_comando(_jogador, "mover", -1, 70); atribuir_comando(_jogador, "esperar", 20); }
@@ -112,7 +118,6 @@ if (global.historia == 3.0) {
                                 
                                 [7, 0, "Você não pode!", [], [], 0, _transicao_continuar]
                             ]],
-                            
                             
                             ["Não, eu quero parar.", [
                                 [7, 0, "Maravilha então! Meu caro detetive, você acaba de ser promovido!"],

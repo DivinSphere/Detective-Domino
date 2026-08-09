@@ -8,5 +8,7 @@ req_personagem = -1;
 req_caracteristica = -1; 
 porta_texto_alt = ""; 
 
-if room=Rm_Alem_dia_0
+if room=Rm_Alem_dia_0{
 	image_alpha=0
+	tocar(snd_porta_aparecendo)
+}
