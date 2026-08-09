@@ -142,6 +142,7 @@
     {"id":{"name":"spr_escolha","path":"sprites/spr_escolha/spr_escolha.yy",},},
     {"id":{"name":"spr_faixa","path":"sprites/spr_faixa/spr_faixa.yy",},},
     {"id":{"name":"spr_fumaca","path":"sprites/spr_fumaca/spr_fumaca.yy",},},
+    {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_hud_topo","path":"sprites/spr_hud_topo/spr_hud_topo.yy",},},
     {"id":{"name":"spr_icone","path":"sprites/spr_icone/spr_icone.yy",},},
     {"id":{"name":"spr_logo_1","path":"sprites/spr_logo_1/spr_logo_1.yy",},},

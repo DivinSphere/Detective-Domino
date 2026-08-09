@@ -110,6 +110,7 @@
     {"name":"spr_escolha","order":7,"path":"sprites/spr_escolha/spr_escolha.yy",},
     {"name":"spr_faixa","order":19,"path":"sprites/spr_faixa/spr_faixa.yy",},
     {"name":"spr_fumaca","order":18,"path":"sprites/spr_fumaca/spr_fumaca.yy",},
+    {"name":"spr_fundo","order":27,"path":"sprites/spr_fundo/spr_fundo.yy",},
     {"name":"spr_hud_topo","order":4,"path":"sprites/spr_hud_topo/spr_hud_topo.yy",},
     {"name":"spr_icone","order":26,"path":"sprites/spr_icone/spr_icone.yy",},
     {"name":"spr_logo_1","order":1,"path":"sprites/spr_logo_1/spr_logo_1.yy",},
