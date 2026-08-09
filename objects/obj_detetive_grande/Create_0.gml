@@ -1,0 +1,10 @@
+alvo_x = x;
+alvo_y = y;
+x = alvo_x + 250; 
+x_final = x;
+y_final = y;
+image_speed = 0; 
+image_index = 0;
+opcao_anterior = 0;
+escala_squash_x = 1.0;
+escala_squash_y = 1.0;

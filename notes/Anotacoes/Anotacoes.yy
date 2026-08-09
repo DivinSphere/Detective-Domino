@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Anotacoes",
+  "name":"Anotacoes",
+  "parent":{
+    "name":"Detective_Domino",
+    "path":"Detective_Domino.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,47 @@
+Fazer as configurações funcionarem
+Adicionar todos os sons
+Finalizar finais o_O
+
+mexer nas cores dos comandos no menu
+
+final onde o mundo explode
+
+---------------------------------------
+Dominó
+
+1 (Preciso): 1.0 (Opção: "5 Casos")
+2 (Mentiroso): 1.0 (Opção: "7 Casos")
+21 (Esperançoso): 4.2 (Opção: "Uma última vez")
+22 (Louco): 4.2 (Opção: "Para todo sempre")
+
+Breno
+
+12 (Descolado): 2.5 (Opção: "Desde o namoro")
+13 (Sensível): 2.5 (Opção: "Isso é mentira")
+23 (Destemido): 4.4 (Opção: "Que maneiro!")
+24 (Cauteloso): 4.4 (Opção: "Isso é perigoso")
+
+Ellie
+
+11 (Fofa): 3 (Condicional: Inspeciona o quadro no quarto)
+14 (Atenta): 3.10 (Condicional: Acerta minigame da bola de papel)
+15 (Desligada): 3.10 (Condicional: Erra minigame da bola de papel)
+
+Theo
+
+3 (Covarde): 1.3 (Obrigatório: Sucesso na fuga)
+4 (Sensato): 1.4 (Opção: "Você não é covarde" - substitui a 3)
+5 (Nerd): 2.1 (Opção: "Seu nerd")
+
+Tiffany
+
+6 (Vaidosa): 2.1 (Opção: "Moda" ou "Beleza")
+7 (Curiosa): 2.1 (Opção: "Isso é interessante")
+9 (Patricinha): 2.2 (Opção: Acha o Theo estranho)
+10 (Atrapalhada): 2.3 (Condicional: Erra minigame no escuro)
+
+Sam
+
+8 (Confiável): 2.2 (Opção: "Eu gosto dele")
+19 (Cinéfilo): 4.0 (Opção: "Gosto de filmes")
+20 (Sombrio): 4.0 (Opção: "Adepto das sombras")
