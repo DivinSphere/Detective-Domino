@@ -96,6 +96,7 @@
     {"id":{"name":"snd_menu_mexe","path":"sounds/snd_menu_mexe/snd_menu_mexe.yy",},},
     {"id":{"name":"snd_menu","path":"sounds/snd_menu/snd_menu.yy",},},
     {"id":{"name":"snd_minigame_interagir","path":"sounds/snd_minigame_interagir/snd_minigame_interagir.yy",},},
+    {"id":{"name":"snd_parabuens","path":"sounds/snd_parabuens/snd_parabuens.yy",},},
     {"id":{"name":"snd_passo","path":"sounds/snd_passo/snd_passo.yy",},},
     {"id":{"name":"snd_porta_aparecendo","path":"sounds/snd_porta_aparecendo/snd_porta_aparecendo.yy",},},
     {"id":{"name":"snd_porta_fechada","path":"sounds/snd_porta_fechada/snd_porta_fechada.yy",},},

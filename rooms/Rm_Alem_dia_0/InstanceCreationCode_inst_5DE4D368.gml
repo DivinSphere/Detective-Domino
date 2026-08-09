@@ -1,7 +1,6 @@
 if (global.historia == 3.0) { 
     
-    // Mantemos a função de encerrar igual, pois ela ocorre apenas no fim do diálogo
-    var _transicao_encerrar = function() {
+   var _transicao_encerrar = function() {
         global.historia = 101; 
         var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
         _porta.destino_room = Rm_finais; 

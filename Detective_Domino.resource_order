@@ -65,6 +65,7 @@
     {"name":"snd_menu_mexe","order":2,"path":"sounds/snd_menu_mexe/snd_menu_mexe.yy",},
     {"name":"snd_menu","order":1,"path":"sounds/snd_menu/snd_menu.yy",},
     {"name":"snd_minigame_interagir","order":13,"path":"sounds/snd_minigame_interagir/snd_minigame_interagir.yy",},
+    {"name":"snd_parabuens","order":23,"path":"sounds/snd_parabuens/snd_parabuens.yy",},
     {"name":"snd_passo","order":4,"path":"sounds/snd_passo/snd_passo.yy",},
     {"name":"snd_porta_aparecendo","order":22,"path":"sounds/snd_porta_aparecendo/snd_porta_aparecendo.yy",},
     {"name":"snd_porta_fechada","order":6,"path":"sounds/snd_porta_fechada/snd_porta_fechada.yy",},

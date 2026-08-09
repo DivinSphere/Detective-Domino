@@ -1,3 +1,8 @@
+if global.historia==111
+	tocar(snd_parabuens)
+
+
+
 if global.historia==107 or global.historia==108	or global.historia==111
 	instance_destroy()
 	
