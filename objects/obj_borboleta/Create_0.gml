@@ -1,4 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-image_alpha=0.15
-depth=4
+
+image_alpha = 0.15;
+depth = 4;
+
+escala_alvo_x = 1;
+escala_alvo_y = 1;
+
+velocidade_suave = 0.15;

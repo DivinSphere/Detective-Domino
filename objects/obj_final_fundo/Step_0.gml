@@ -1,4 +1,8 @@
-
+if global.historia==111
+	tocar(snd_parabuens,true)
+	
+	
+	
 x = lerp(x, alvo_x, 0.08);
 
 

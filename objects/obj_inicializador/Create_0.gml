@@ -1,4 +1,7 @@
 
+cursor_sprite=spr_mouse
+window_set_cursor(cr_none);
+
 if (!variable_global_exists("vol_geral")) global.vol_geral = 1.0;
 if (!variable_global_exists("vol_musica")) global.vol_musica = 1.0;
 if (!variable_global_exists("vol_efeito")) global.vol_efeito = 1.0;

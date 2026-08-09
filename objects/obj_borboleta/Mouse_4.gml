@@ -1,0 +1,14 @@
+
+
+if choose(1,0)==1{
+image_yscale = 0.3; 
+image_xscale = 1.7;
+}else{
+image_yscale = 1.7; 
+image_xscale = 0.3;
+	
+}
+
+
+
+tocar(snd_menu_mexe)
