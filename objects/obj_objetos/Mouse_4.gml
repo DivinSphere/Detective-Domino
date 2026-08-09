@@ -1,4 +1,7 @@
-
+/// @description Insert description here
+// You can write your code in this editor
+if clicavel==false
+exit
 
 if choose(1,0)==1{
 image_yscale = 0.3; 

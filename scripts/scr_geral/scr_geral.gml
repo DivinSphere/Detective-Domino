@@ -66,7 +66,7 @@ function tocar(_audio, _loop_efeito = false, _pitch = 1) {
         audio_sound_gain(_efeito_inst, _vol_final, 0);
         
 		if _audio==snd_voz_1				audio_sound_gain(_efeito_inst, _vol_final*1.2, 0);
-		if _audio==snd_parabuens			audio_sound_gain(_efeito_inst, _vol_final*1.3, 0);
+		if _audio==snd_parabuens			audio_sound_gain(_efeito_inst, _vol_final*1.4, 0);
 		
         if (_pitch != 1) {
             audio_sound_pitch(_efeito_inst, _pitch);

@@ -47,7 +47,7 @@ if (estado == "navegando") {
         seta_escala = 0.75;
     }
 
-    if (IN_ACAO_PRESS) {
+    if (IN_ACAO_PRESS||IN_START_PRESS) {
 		tocar(snd_menu_confirma)
         escala_botoes[selecionado] = 0.35; 
         estado = "clicado";
