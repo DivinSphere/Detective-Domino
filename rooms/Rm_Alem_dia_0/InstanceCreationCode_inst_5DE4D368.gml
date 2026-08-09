@@ -10,8 +10,6 @@ if (global.historia == 3.0) {
         _porta.lado = 1;
     };
     
-    // A função de continuar agora apenas atualiza o progresso, 
-    // pois a porta será criada no momento exato do movimento.
     var _transicao_continuar = function() {
         global.historia = 3.1;
     };
@@ -69,7 +67,7 @@ if (global.historia == 3.0) {
                                 [7, 0, "Ora, nosso tempo novamente se encerrou por aqui, esse caso está sendo extenso, vamos, vá logo descobrir mais do nosso maior caso!", [], [], 0],
                                 [7, 0, "Vamos ver qual vai ser o resultado dessa vez...", [], [], 0, function() {
                                     
-                                    // 1. CRIA A PORTA PRIMEIRO
+                                    
                                     var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
                                     _porta.destino_room = Rm_Casa_dia_0; 
                                     _porta.destino_id = -5; 
@@ -77,7 +75,6 @@ if (global.historia == 3.0) {
                                     _porta.deslocar = -70;
                                     _porta.lado = 1;
 
-                                    // 2. ATRIBUI O MOVIMENTO LOGO DEPOIS
                                     var _jogador = noone;
                                     with (obj_detetive) { if (jogador) _jogador = id; }
                                     if (_jogador != noone) { atribuir_comando(_jogador, "mover", -1, 70); atribuir_comando(_jogador, "esperar", 20); }
@@ -101,7 +98,6 @@ if (global.historia == 3.0) {
                                 [7, 0, "Hahaha, que engraçado! Sendo julgado por quem me procurou..."],
                                 [7, 0, "Ora, nosso tempo novamente se encerrou por aqui, esse caso está sendo extenso, vamos, vá logo descobrir mais do nosso maior caso!", [], [], 0, function() {
                                     
-                                    // 1. CRIA A PORTA PRIMEIRO
                                     var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
                                     _porta.destino_room = Rm_Casa_dia_0; 
                                     _porta.destino_id = -5; 
@@ -109,7 +105,6 @@ if (global.historia == 3.0) {
                                     _porta.deslocar = -70;
                                     _porta.lado = 1;
 
-                                    // 2. ATRIBUI O MOVIMENTO LOGO DEPOIS
                                     var _jogador = noone;
                                     with (obj_detetive) { if (jogador) _jogador = id; }
                                     if (_jogador != noone) { atribuir_comando(_jogador, "mover", -1, 70); atribuir_comando(_jogador, "esperar", 20); }
