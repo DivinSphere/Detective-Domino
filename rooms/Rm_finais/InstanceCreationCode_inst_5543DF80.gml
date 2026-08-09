@@ -1,4 +1,4 @@
-if global.historia==107{
+if global.historia==107	or global.historia==111{
 	y=222
 }
 

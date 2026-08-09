@@ -5,8 +5,8 @@ if (global.devaneio and global.historia > 90) {
     global.devaneio_num++;
     global.devaneio = false;
     
-    var _criar_porta_devaneio = function() {
-        var _porta = instance_create_layer(60, 92, "Instances", obj_porta);
+    _criar_porta_devaneio = function() {
+        _porta = instance_create_layer(60, 92, "Instances", obj_porta);
         _porta.acao_texto = "";
         _porta.deslocar = -70;
         _porta.lado = 1;
@@ -28,7 +28,14 @@ if (global.devaneio and global.historia > 90) {
 			_porta.deslocar = -70;
 			
 			
-        }else if (global.historia == 110) {
+        }
+		
+
+        else if (global.historia == 111) {
+            _porta.destino_room = Rm_finais;
+            _porta.destino_id = 1; 
+        }
+		else if (global.historia == 110) {
 			
             _porta.destino_room = Rm_Casa_dia_0;
             _porta.destino_id = 3; 
@@ -102,6 +109,7 @@ if (global.devaneio and global.historia > 90) {
             ]
         ];
     } else {
+
         dialogos = [
             [
                 "Conversar com o Paradoxo", 
@@ -109,7 +117,30 @@ if (global.devaneio and global.historia > 90) {
                     [1, 0, "Tá tá tá, já sei... outro devaneio?"],
                     [7, 0, "Outro devaneio...", [], [], 0, _mover_frente],
                     [1, 0, "Aquela porta lá?"],
-                    [7, 0, "Aquela porta...", [], [], 0, _criar_porta_devaneio]
+                    [7, 0, "Aquela porta..."],
+                    [7, 0, "A proposito... você viu alguma borboleta por ai?", 
+                        ["Não", [
+                            [7, 0, "Ah tudo bem então.. mas caso veja, me avise tá bem?", [], [], 0, _criar_porta_devaneio]
+                        ]],
+                        ["Sim", [
+                            [7, 0, "Poderia me dizer quantas são?",
+                                ["13", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+								["14", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+                                ["15", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+                                ["16", [
+                                    [7, 0, "Caramba! Você é realmente muito observador, meus parabéns! aqui, vou deixar você ver uma coisa muito legal!", [], [], 0, function() {
+                                        global.historia = 111;
+                                        _criar_porta_devaneio();
+                                    }]
+                                ]],
+                                ["17", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+                                ["18", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+                                ["19", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+                                ["20", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]],
+								["21", [[7, 0, "poxa, acho que não é isso.. mas voce pode continuar contando!", [], [], 0, _criar_porta_devaneio]]]
+                            ]
+                        ]]
+                    ]
                 ]
             ]
         ];

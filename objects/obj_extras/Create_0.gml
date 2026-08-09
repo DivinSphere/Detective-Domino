@@ -32,7 +32,7 @@ x_offset_opcoes = array_create(_len, 0);
 escala_valor = 1.0; 
 cor_destaque = make_color_rgb(211, 84, 0);
 
-finais_ids = [100, 107, 106, 104, 105, 103, 109];
+finais_ids = [100, 107, 106, 104, 105, 103, 109,111];
 idx_final = 0;
 
 devaneios_ids = [101, 102, 108, 110];

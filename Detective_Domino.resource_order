@@ -12,6 +12,7 @@
   "ResourceOrderSettings":[
     {"name":"Anotacoes","order":6,"path":"notes/Anotacoes/Anotacoes.yy",},
     {"name":"obj_anotacoes","order":9,"path":"objects/obj_anotacoes/obj_anotacoes.yy",},
+    {"name":"obj_borboleta","order":32,"path":"objects/obj_borboleta/obj_borboleta.yy",},
     {"name":"obj_caixa","order":22,"path":"objects/obj_caixa/obj_caixa.yy",},
     {"name":"obj_carro","order":20,"path":"objects/obj_carro/obj_carro.yy",},
     {"name":"obj_churrasqueira","order":23,"path":"objects/obj_churrasqueira/obj_churrasqueira.yy",},
@@ -93,6 +94,7 @@
     {"name":"spr_alem_nuvem","order":16,"path":"sprites/spr_alem_nuvem/spr_alem_nuvem.yy",},
     {"name":"spr_anotacoes","order":13,"path":"sprites/spr_anotacoes/spr_anotacoes.yy",},
     {"name":"spr_assassino_faca","order":8,"path":"sprites/spr_assassino_faca/spr_assassino_faca.yy",},
+    {"name":"spr_borboleta","order":30,"path":"sprites/spr_borboleta/spr_borboleta.yy",},
     {"name":"spr_botoes_backup","order":3,"path":"sprites/spr_botoes_backup/spr_botoes_backup.yy",},
     {"name":"spr_botoes_seta","order":4,"path":"sprites/spr_botoes_seta/spr_botoes_seta.yy",},
     {"name":"spr_botoes","order":2,"path":"sprites/spr_botoes/spr_botoes.yy",},

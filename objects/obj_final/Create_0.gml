@@ -1,5 +1,5 @@
 var _devaneios = [101, 102,108,110]; 
-var _finais = [100, 107, 106, 104, 105, 103,109];
+var _finais = [100, 107, 106, 104, 105, 103,109,111];
 
 
 
@@ -36,6 +36,18 @@ else if (global.historia == 102) {
         "MAS ATÉ MESMO A LOUCURA TEM SEUS LIMITES. O CICLO LOGO RECOMEÇA,\nFORÇANDO ZACK A MERGULHAR MAIS UMA VEZ NA SUA PRÓPRIA ILUSÃO."
     ];
 }
+else if (global.historia == 111) {
+    _nome = "SEM TER O QUE FAZER";
+    global.devaneio = false;
+    room_destino = Rm_variaveis;
+    linhas = [
+        "CARAMBA... VOCÊ REALMENTE NÃO TINHA O QUE FAZER, NÃO É MESMO?\nOU VOCÊ CONTOU TODAS, OU TRAPACEOU NOS ARQUIVOS, OU CHUTOU E ACERTOU.",
+        "MAS DE QUALQUER FORMA... PARABÉNS!",
+        "PARABÉNS!, PARABÉNS! PARABUENS!",
+        "AGORA VOCÊ VAI VOLTAR PARA O MENU PRINCIPAL... SUA RECOMPENSA POR POTENCIALMENTE TER TRAPACEADO... NOVAMENTE PARABUENS!"
+    ];
+}
+
 else if (global.historia == 110) {
     _nome = "O DETETIVE COVARDE";
     global.devaneio = true;
