@@ -16,3 +16,6 @@ x_final = x;
 y_final = y;
 
 alarm[0]=1
+
+escala_squash_x = 1.0;
+escala_squash_y = 1.0;

@@ -11,3 +11,6 @@ var _hover_y = sin(_tempo) * 3;
 
 x_final = x; 
 y_final = y + _hover_y;
+
+escala_squash_x = lerp(escala_squash_x, 1.0, 0.2);
+escala_squash_y = lerp(escala_squash_y, 1.0, 0.2);

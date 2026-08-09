@@ -2,7 +2,7 @@
 clicavel=false
 
 
-if (array_contains([0, 1,2, 7, 11, 16, 17, 19], floor(image_index))) {
+if (array_contains([0, 2, 7, 11, 16, 17, 19], floor(image_index))) {
 clicavel=true
 }
 

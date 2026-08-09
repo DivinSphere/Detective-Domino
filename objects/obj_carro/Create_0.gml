@@ -17,3 +17,9 @@ wheel_speed = 6;
 
 hspeed = speed_x;
 vspeed = speed_y;
+
+
+escala_alvo_x = image_xscale;
+escala_alvo_y = image_yscale;
+
+velocidade_suave = 0.15;
