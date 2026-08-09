@@ -68,6 +68,7 @@
     {"id":{"name":"obj_personagens","path":"objects/obj_personagens/obj_personagens.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"obj_sangue","path":"objects/obj_sangue/obj_sangue.yy",},},
+    {"id":{"name":"obj_transicao_sumindo","path":"objects/obj_transicao_sumindo/obj_transicao_sumindo.yy",},},
     {"id":{"name":"obj_tremor","path":"objects/obj_tremor/obj_tremor.yy",},},
     {"id":{"name":"Rm_Alem_dia_0","path":"rooms/Rm_Alem_dia_0/Rm_Alem_dia_0.yy",},},
     {"id":{"name":"Rm_Casa_dia_0","path":"rooms/Rm_Casa_dia_0/Rm_Casa_dia_0.yy",},},

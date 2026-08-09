@@ -10,6 +10,7 @@
     {"name":"inst_402EA074","path":"rooms/Rm_menu/Rm_menu.yy",},
     {"name":"inst_1CF32169","path":"rooms/Rm_menu/Rm_menu.yy",},
     {"name":"inst_1F481665","path":"rooms/Rm_menu/Rm_menu.yy",},
+    {"name":"inst_5EE97F08","path":"rooms/Rm_menu/Rm_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
         {"$GMRInstance":"v4","%Name":"inst_402EA074","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_402EA074","objectId":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_1CF32169","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CF32169","objectId":{"name":"obj_detetive_grande","path":"objects/obj_detetive_grande/obj_detetive_grande.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-5.0,"scaleY":5.0,"x":246.0,"y":222.0,},
         {"$GMRInstance":"v4","%Name":"inst_1F481665","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F481665","objectId":{"name":"obj_comandos","path":"objects/obj_comandos/obj_comandos.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":166.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5EE97F08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EE97F08","objectId":{"name":"obj_transicao_sumindo","path":"objects/obj_transicao_sumindo/obj_transicao_sumindo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-24.0,"y":8.0,},
       ],"layers":[],"name":"instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"fundo_ceu","animationFPS":0.0,"animationSpeedType":0,"colour":4280756332,"depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":4,"hierarchyFrozen":false,"hspeed":-2.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"fundo_ceu","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":true,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

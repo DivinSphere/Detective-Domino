@@ -40,6 +40,7 @@
     {"name":"obj_personagens","order":10,"path":"objects/obj_personagens/obj_personagens.yy",},
     {"name":"obj_porta","order":8,"path":"objects/obj_porta/obj_porta.yy",},
     {"name":"obj_sangue","order":28,"path":"objects/obj_sangue/obj_sangue.yy",},
+    {"name":"obj_transicao_sumindo","order":31,"path":"objects/obj_transicao_sumindo/obj_transicao_sumindo.yy",},
     {"name":"obj_tremor","order":16,"path":"objects/obj_tremor/obj_tremor.yy",},
     {"name":"Rm_Alem_dia_0","order":3,"path":"rooms/Rm_Alem_dia_0/Rm_Alem_dia_0.yy",},
     {"name":"Rm_Casa_dia_0","order":2,"path":"rooms/Rm_Casa_dia_0/Rm_Casa_dia_0.yy",},

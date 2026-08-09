@@ -16,6 +16,7 @@
     {"name":"inst_25E1A05A","path":"rooms/Rm_finais/Rm_finais.yy",},
     {"name":"inst_1C8B8DAE","path":"rooms/Rm_finais/Rm_finais.yy",},
     {"name":"inst_27A47A68","path":"rooms/Rm_finais/Rm_finais.yy",},
+    {"name":"inst_E6C53AA","path":"rooms/Rm_finais/Rm_finais.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,6 +31,7 @@
         {"$GMRInstance":"v4","%Name":"inst_25E1A05A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25E1A05A","objectId":{"name":"obj_final_fundo","path":"objects/obj_final_fundo/obj_final_fundo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-5.0,"scaleY":5.0,"x":192.0,"y":444.0,},
         {"$GMRInstance":"v4","%Name":"inst_1C8B8DAE","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":8,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C8B8DAE","objectId":{"name":"obj_final_fundo","path":"objects/obj_final_fundo/obj_final_fundo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-5.0,"scaleY":5.0,"x":247.0,"y":444.0,},
         {"$GMRInstance":"v4","%Name":"inst_27A47A68","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":7,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27A47A68","objectId":{"name":"obj_final_fundo","path":"objects/obj_final_fundo/obj_final_fundo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-5.0,"scaleY":5.0,"x":306.0,"y":444.0,},
+        {"$GMRInstance":"v4","%Name":"inst_E6C53AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E6C53AA","objectId":{"name":"obj_transicao_sumindo","path":"objects/obj_transicao_sumindo/obj_transicao_sumindo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-48.0,"y":28.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Fundo_quarto","animationFPS":0.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":4,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Fundo_quarto","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":true,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
