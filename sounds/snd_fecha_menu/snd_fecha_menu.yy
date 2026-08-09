@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.15106577,
+  "duration":1.6245352,
   "exportDir":"",
   "name":"snd_fecha_menu",
   "parent":{
