@@ -13,6 +13,8 @@ room_destino = Rm_variaveis;
 linhas = [];
 is_sobre = false;
 var _nome = "";
+global.deslocar=0
+
 
 if (global.historia == 101) {
     _nome = "A GAROTA ESTABANADA";

@@ -196,9 +196,10 @@ if room==Rm_Alem_dia_0
 else
 	draw_text_transformed(160, 0, "Ato "+string(ato)+"/4", 0.5, 0.5, 0);
 
-if global.debug
+if global.debug{
 	draw_text_transformed(160, 20, string(global.historia), 0.5, 0.5, 0);
-	
+	draw_text_transformed(160, 40, string(global.devaneio), 0.5, 0.5, 0);
+}
 	
 	
 draw_set_halign(fa_left)

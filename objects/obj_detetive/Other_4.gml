@@ -1,5 +1,5 @@
 
-if !jogador
+if !jogador or room==Rm_Alem_dia_0
 	exit
 
 

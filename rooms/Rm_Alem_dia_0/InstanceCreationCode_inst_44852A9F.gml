@@ -1,9 +1,11 @@
-if (global.devaneio and global.historia > 90) {
+global.dialogos_vistos={}
+
+if (global.historia > 90) {
 
     personagem_remover_caracteristica(1, 22);
     
     global.devaneio_num++;
-    global.devaneio = false;
+    
     
     _criar_porta_devaneio = function() {
         _porta = instance_create_layer(60, 92, "Instances", obj_porta);
@@ -11,6 +13,8 @@ if (global.devaneio and global.historia > 90) {
         _porta.deslocar = -70;
         _porta.lado = 1;
         
+		global.devaneio = false;
+		
         if (global.historia == 101) {
             global.historia = 3.1;
             _porta.destino_room = Rm_Casa_dia_0;
